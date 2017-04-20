@@ -1,0 +1,69 @@
+body {
+  background: #EFEFF5;
+  padding-bottom: 70px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.image-responsive {
+  width: 100%;
+  height: auto;
+}
+
+.watch {
+  position: relative;
+  width: 378px;
+  height: 378px;
+  border-radius: 50%;
+  margin: 30px auto 0 auto;
+  background-image: url(https://github.com/antoniocapelo/quickies/blob/master/analog-clock/images/clockFace.png?raw=true);
+  .arrow {
+    position: absolute;
+    top: 58px;
+    left: 181px;
+    transform-origin: 50% 95%;
+    z-index: 1000;
+  }
+}
+
+.watch-wrapper {
+  text-align: center;
+}
+
+.btn {
+  font-family: inherit;
+  font-size: 20px;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin: 24px;
+  padding: 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: #fff;
+}
+
+.start-btn {
+  color: #4bd761
+}
+
+.stop-btn {
+  color: #fd3d2a
+}
