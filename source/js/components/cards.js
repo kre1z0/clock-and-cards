@@ -85,7 +85,7 @@ const Card = () => (
 )
 
 const Cards = () => (
-  <div>
+  <div className='cards-wrapper'>
     <Card />
     <Card />
     <Card />
